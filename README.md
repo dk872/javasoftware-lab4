@@ -74,7 +74,7 @@ You can browse it here: [Project Documentation](https://dk872.github.io/javasoft
 
 To regenerate the documentation, run:
 ```
-javadoc -d docs -sourcepath src/main/java -subpackages org.example
+javadoc -d docs -sourcepath src/main/java -subpackages org.example -private
 ```
 
 ## Author info
