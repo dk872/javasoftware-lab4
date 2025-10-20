@@ -72,8 +72,8 @@ public class TextProcessor {
      * @throws IllegalArgumentException if text or replacement is null, or if length is not positive.
      */
     private void validateInputs(Text text, int length, Word replacement) {
-        if (text == null || text.length() == 0) {
-            throw new IllegalArgumentException("Input text cannot be empty or null.");
+        if (text == null) {
+            throw new IllegalArgumentException("Input text cannot be null.");
         }
         if (length <= 0) {
             throw new IllegalArgumentException("Word length must be positive.");
