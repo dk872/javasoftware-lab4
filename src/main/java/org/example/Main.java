@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             // 1. Initial data
-            String initialText = "Write    tests first, then \t build the features. A five-letter word.";
+            String initialText = "Write    tests first, then \t build the features.";
             int wordLength = 4;
             String replacementString = "$$$";
 
